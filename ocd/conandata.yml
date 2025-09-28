@@ -1,0 +1,4 @@
+sources:
+  "latest":
+    url: "https://github.com/openocd-org/openocd/archive/4ae92ee3b9c8c2eaa07dc22262cdc2c1eec6412d.zip"
+    sha256: "fc7fe971ff818e09149a0980fd6c2f580f68a2cb885be535521e2229aa70e3ca"
