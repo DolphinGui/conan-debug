@@ -27,6 +27,7 @@ class openocd(ConanFile):
         self.requires("jimtcl/0.83")
         self.requires("zlib/1.3.1")
         self.requires("openssl/3.5.2")
+        self.requires("libusb/1.0.26")
 
     def source(self):
         get(self, **self.conan_data["sources"][self.version], strip_root=True)
