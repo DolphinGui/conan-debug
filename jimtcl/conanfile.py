@@ -26,7 +26,7 @@ class JimTCL(ConanFile):
         get(self, **self.conan_data["sources"][self.version], strip_root=True)
 
     def build(self):
-        self.run(f"make -j -l {os.process_cpu_count()}")
+        self.run(f"make -j -l {os.cpu_count()}")
 
     def package(self):
-        self.run(f"make -j -l {os.process_cpu_count()} install", cwd=self.source_folder)
+        self.run(f"make -j -l {os.cpu_count()} install", cwd=self.source_folder)
