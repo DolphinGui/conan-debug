@@ -1,0 +1,7 @@
+sources:
+  v20250710:
+    url: "https://sysprogs.com/getfile/2482/openocd-20250710.7z"
+    sha256: "3edc276463840e0545e957d4349d2c002d57a58244bf3d7496558e42dc849757"
+data:
+  v20250710:
+    dirname: "OpenOCD-20250710-0.12.0"
